@@ -362,6 +362,12 @@ footer {
     width: 150px;
   }
 }
+@media (max-width: 690px) {
+  .aboutUs {
+    height: 180vh;
+  }
+}
+
 @media (max-width: 486px) {
   .content {
     height: 60vh;
@@ -384,7 +390,6 @@ footer {
     gap: 25px;
   }
 }
-
 /* Mobile */
 @media (max-width: 425px) {
   .navbar img {
@@ -418,17 +423,17 @@ footer {
     width: 310px;
   } */
   .aboutUs {
-    height: 20 0vh;
-    top: 200px;
+    height: 180vh;
     margin-top: 200px;
   }
 }
 
 @media (max-width: 376px) {
   .aboutUs {
-    height: 180vh;
+    height: 200vh;
   }
 }
+
 @media (max-width: 320px) {
   .farmgirl img {
     width: 200px;
@@ -437,6 +442,6 @@ footer {
     top: 110px;
   }
   .aboutUs {
-    height: 205vh;
+    height: 240vh;
   }
 }
