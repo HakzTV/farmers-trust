@@ -377,13 +377,14 @@ footer {
 @media (max-width: 426px) {
   .aboutUs {
     /* top: 350px; */
-    height: 205vh;
+    height: 170vh;
   }
   .foot {
     flex-direction: column;
     gap: 25px;
   }
 }
+
 /* Mobile */
 @media (max-width: 425px) {
   .navbar img {
@@ -417,15 +418,17 @@ footer {
     width: 310px;
   } */
   .aboutUs {
-    height: 200vh;
+    height: 20 0vh;
     top: 200px;
     margin-top: 200px;
   }
 }
-/* @media (max-width: 322px) {
+
+@media (max-width: 376px) {
   .aboutUs {
+    height: 180vh;
   }
-} */
+}
 @media (max-width: 320px) {
   .farmgirl img {
     width: 200px;
